@@ -1,0 +1,19 @@
+# Notes
+- zdu - zero downtime update
+- sdlc
+	- requirements
+	- design (system, ll, hl)
+	- Implementation (actual coding)
+	- Testing (unit test by devs and other artifact tests by sre's)
+	- Evolution (Feedback Improve Iteration loop)
+- Dynamic Application Security Testing (DAST): Analyzes applications in a running state to identify vulnerabilities
+- CI
+	- download latest code from repository
+	- Installing necessary dependencies
+	- Linting
+	- Building
+	- Testing
+	- Software Composition Analysis (SCA) : Checks for vulnerabilities in open source and third-party components or libraries used within the application
+	- Static Application Security Testing (SAST) : Analyzes application code for vulnerabilities without executing the code
+	- Artifact Creation (creating a docker Images)
+	- deployment
