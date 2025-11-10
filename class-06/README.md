@@ -1,0 +1,24 @@
+# Notes
+
+- Docker is built for the Linux OS kernel. Does it work on Windows and Mac? Yes, through the use of a hypervisor (such as Docker Desktop).
+- hypervisor -- a category of software that helps to create virtual machines
+- Startup of a virtual machine
+  - Hardware
+  - Hypervisor
+  - BIOS - binary input output system -- it has hardware configureations
+  - MBR - master boot record -- decides which os to load
+  - boot loader - knows how to load that particular os
+  - kernel
+  - INIT
+  - processes
+  - app
+- docker doesnt have its own os, it directly works with host os and hence they are light weight and very fast
+- `docker ps -a` see all (even non running Instances)
+- `docker exec -it` go into a docker container
+- `docker commit` to create a image from a container
+- `docker info` -- gives overall info like root path, storage folder, e.t.c..
+- `/var/lib/docker/overlay2` - Storage Driver `vfs`
+- `docker container prune` - remove all stopped containers
+- `docker rmi` - used to remove images
+- `docker image inspect <imageID>`
+- 
