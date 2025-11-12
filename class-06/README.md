@@ -21,4 +21,4 @@
 - `docker container prune` - remove all stopped containers
 - `docker rmi` - used to remove images
 - `docker image inspect <imageID>`
-- 
+-
