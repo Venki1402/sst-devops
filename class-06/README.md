@@ -21,4 +21,4 @@
 - `docker container prune` - remove all stopped containers
 - `docker rmi` - used to remove images
 - `docker image inspect <imageID>`
--
+- `docker run -it` -- it i means interactive and t is terminal access
