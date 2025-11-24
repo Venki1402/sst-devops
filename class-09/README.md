@@ -11,4 +11,5 @@
       - `docker run -it -v venvol:/ubuntuvenvolume ubuntu bash`
 
     - Anonymous
-        -
+      - `docker run -it -v /ubuntuvolume ubuntu bash`
+      - automatically create's new volume
