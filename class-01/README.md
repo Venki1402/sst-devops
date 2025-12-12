@@ -7,5 +7,4 @@
 - In asynchronous communication we dont need load balancers, the broker (eg kafka) will take care of it
 - Event syncing -- kinda like analytics for the entire application
 - Logs - used for debugging -- seperated out -- ex. splunk, datadog
-- 
-
+-
