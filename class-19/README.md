@@ -1,0 +1,25 @@
+# CD
+
+- github runner
+
+```yaml
+name: Build a WAR file using Maven
+
+on:
+#  push:
+#    branches: [ "master" ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: label-1
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+    - name: kubernetes deploy
+      run: kubectl run vilaspod --image=nginx
+```
