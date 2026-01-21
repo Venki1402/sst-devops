@@ -26,3 +26,5 @@
     - apply the above shown changes
   - terraform destroy
     - delete everything (state file is the sot)
+  - terraform refresh
+    - sync the state file with real infrastructure
